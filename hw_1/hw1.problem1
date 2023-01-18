@@ -1,0 +1,33 @@
+Script started on Sat Jan 14 05:54:23 2023
+# echo "Hello 2023 and the new quarter!"
+Hello 2023 and the new quarter!
+# date
+Sat Jan 14 05:54:54 UTC 2023
+# pwd
+/source/hw_1
+# cd
+# ls
+# mkdir temp
+# mv temp temp_new
+# cd temp_new
+# touch file5
+# mv file5 test
+# cd ..
+# rm -r temp_new
+# echo "It's a secret!" > secretfile
+# chmod -wx secretfile
+# ls -l
+total 4
+-r--r--r-- 1 root root 15 Jan 14 05:58 secretfile
+# cat <<EOF >> secretfile
+> try to add more text
+> EOF
+# cat secretfile
+It's a secret!
+try to add more text
+# ls -l
+total 4
+-r--r--r-- 1 root root 36 Jan 14 06:04 secretfile
+# 
+
+Script done on Sat Jan 14 06:06:57 2023
